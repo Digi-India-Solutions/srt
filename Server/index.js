@@ -13,9 +13,9 @@ app.use(express.static("./public"));
 app.use(
   cors({
     origin: [
-      "http://localhost:3003",
+      "http://localhost:3002",
       "http://localhost:3000",
-      "http://localhost:3005",
+      "http://localhost:3001",
       "https://admin.shrirattantraders.com",
       "https://shrirattantraders.com",
       "https://www.shrirattantraders.com",
@@ -24,9 +24,9 @@ app.use(
       "https://bookmygirl.in",
       "https://www.bookmygirl.in",
     ],
-    // credentials: true,
+    credentials: true,
     methods: "GET,POST,DELETE,PATCH",
-    // allowedHeaders: "Content-Type, Authorization",
+    allowedHeaders: "Content-Type, Authorization",
   })
 );
 app.options("*", cors());
