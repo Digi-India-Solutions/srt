@@ -1,0 +1,40 @@
+.costum-bread-crumb{
+    background-image: url('../../images/banner-image.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.costum-bread-overlay{
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
+    height: 250px;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.costum-bread-content{
+    position: absolute;
+    top: 35%;
+}
+
+.breadcrumb-title{
+    color: white;
+    font-weight: 600;
+}
+
+.costum-bread-content p a{
+    text-decoration: none;
+    color: white;
+}
+.costum-bread-content p{
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+    .costum-bread-overlay{
+        height: 150px;
+    }    
+}

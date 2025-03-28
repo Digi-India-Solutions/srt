@@ -1,0 +1,165 @@
+/* About Company Section */
+.about-section p {
+  font-size: 18px;
+  color: #333;
+}
+
+.about-section p,
+.mission-vision p,
+.why-choose-us p {
+    line-height: 1.6;
+}
+
+.about-section .btn-primary {
+  background: #ff9800;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Mission & Vision */
+.mission-vision {
+  background: #f8f9fa;
+  padding: 40px 0;
+}
+
+.mission-vision h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+}
+
+.mission-vision p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Why Choose Us */
+.why-choose-us h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.why-choose-us .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.why-choose-us h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.why-choose-us p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Call to Action */
+.cta-section {
+  background: #222;
+  color: white;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+.cta-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cta-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-section .btn-warning {
+  background: #ff9800;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+}
+
+.about-content {
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+  padding: 2rem 0 0;
+}
+
+.about-content p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.why-choose-card {
+  transition: all 0.3s ease-in-out;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.why-choose-card:hover {
+  transform: translateY(-8px) scale(1.02);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.why-choose-heading {
+  padding: 10px;
+  background-color: var(--background);
+}
+
+.why-choose-heading h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+
+.why-choose-card-body p {
+  font-size: 14px;
+}
+
+.why-choose-desc {
+  padding: 10px;
+}
+
+.jurneyImage {
+  width: 40%;
+    max-width: 300px; /* Prevents oversizing */
+    height: auto;
+}
+
+.journey-card h5 {
+  font-family: fantasy;
+  letter-spacing: 1px;
+  background-color: var(--background);
+  max-width: fit-content;
+  margin: auto;
+  padding: 5px 40px;
+  color: white;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.journey-card p {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 3px 30px;
+  border-radius: 15px;
+}
+
+.btn-primary:hover, 
+.btn-warning:hover {
+    background: #e68900; /* Darker shade */
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    max-width: 100%;
+    padding: 1rem 0 0;
+  }
+  .journey-card p {
+    font-size: 10px;
+  }
+}

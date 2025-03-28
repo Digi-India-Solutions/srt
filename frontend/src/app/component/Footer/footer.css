@@ -1,0 +1,55 @@
+/* .footer-section {
+    background: var(--background);
+    color: white;
+    padding: 20px 0;
+  } */
+
+  footer{
+      background-image: url('../../images/red-bg.png');
+      color: white;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 20px 0;
+  }
+  
+  .footer-info p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-info .icon {
+    margin-right: 10px;
+  }
+  
+  .footer-form .form-control {
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .footer-form .form-control::placeholder {
+    color: white;
+  }
+  .footer-form .form-control:focus{
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+  }
+  .submit-btn {
+    width: 100%;
+    background-color: white !important;
+    color: #d92323;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .submit-btn:hover {
+    background-color: #fff;
+    color: #b71c1c;
+  }
+  
