@@ -114,7 +114,7 @@ const Header = () => {
                       <i
                         style={{
                           backgroundColor: "white",
-                          padding: "0px 5px"
+                          padding: "0px 5px",
                           borderRadius: "5px",
                         }}
                       >
